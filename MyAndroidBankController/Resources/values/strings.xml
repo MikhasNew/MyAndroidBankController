@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyAndroidBankController</string>
+    <string name="action_settings">Settings</string>
+	<string-array name="CategoryNames">
+		<item name ="Products">Продукты</item>
+		<item name ="Fuel">Топливо</item>
+		<item name ="Utilities">Коммунальные услуги</item>
+		<item name ="Credits">Кредиты</item>
+		<item name ="Present">Подарки</item>
+		<item name ="Fast food">Фастфуд</item>
+		<item name ="Clothing">Одежда</item>
+		<item name ="Taxi">Такси</item>
+		<item name ="Public transport">Общественный транспорт</item>
+	</string-array>
+</resources>
