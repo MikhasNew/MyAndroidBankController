@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.1.32319.34
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAndroidBankController", "MyAndroidBankController\MyAndroidBankController.csproj", "{E6EE8228-C1B0-4606-8340-28C2F256F21C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAndroidBankController", "MyAndroidBankController.csproj", "{E6EE8228-C1B0-4606-8340-28C2F256F21C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfcToXamarinAndroid.Core", "EfcToXamarinAndroid\EfcToXamarinAndroid.Core.csproj", "{C7B5F3E7-8744-46E8-90C5-9ECDE62A782E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +19,15 @@ Global
 		{E6EE8228-C1B0-4606-8340-28C2F256F21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6EE8228-C1B0-4606-8340-28C2F256F21C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E6EE8228-C1B0-4606-8340-28C2F256F21C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C7B5F3E7-8744-46E8-90C5-9ECDE62A782E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B5F3E7-8744-46E8-90C5-9ECDE62A782E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B5F3E7-8744-46E8-90C5-9ECDE62A782E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B5F3E7-8744-46E8-90C5-9ECDE62A782E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4A4FD1EC-E37D-4B5A-96FB-80D40BB312C0}
+		SolutionGuid = {B7AFE369-8848-47F7-A755-1790DDDFDF83}
 	EndGlobalSection
 EndGlobal
