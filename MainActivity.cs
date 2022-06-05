@@ -210,10 +210,14 @@ namespace MyAndroidBankController
         {
             Console.WriteLine($"This operation took {timer.ElapsedMilliseconds}");
             timer.Restart();
+
             Parser parserBelarusbank = new Parser(smsList, bankConfigurations);//This operation took 3558
+            
             Console.WriteLine($"This operation took {timer.ElapsedMilliseconds}");
             timer.Restart();
+           
             await DatesRepositorio.AddDatas(parserBelarusbank.Data);//This operation took 10825
+            
             Console.WriteLine($"This operation took {timer.ElapsedMilliseconds}");
             timer.Restart();
 
